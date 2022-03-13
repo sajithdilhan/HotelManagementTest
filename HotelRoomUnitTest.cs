@@ -4,13 +4,14 @@ using HotelManagementSolution.Controllers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Moq;
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using Xunit;
 
 namespace HotelManagementTest
 {
+    /// <summary>
+    /// Sample Test Cases for Rooms Controller
+    /// </summary>
     public class HotelRoomUnitTest
     {
         [Fact]
