@@ -25,7 +25,7 @@ namespace HotelManagementTest
 
             var controller = new RoomsController(loggerMock.Object, dataServiceMock.Object);
 
-            //Accept
+            //Act
 
             var result = controller.GetAllRooms();
 
@@ -45,7 +45,7 @@ namespace HotelManagementTest
 
             var controller = new RoomsController(loggerMock.Object, dataServiceMock.Object);
 
-            //Accept
+            //Act
 
             var result = controller.AssignRoom();
 
@@ -65,7 +65,7 @@ namespace HotelManagementTest
 
             var controller = new RoomsController(loggerMock.Object, dataServiceMock.Object);
 
-            //Accept
+            //Act
 
             var resultFailed = controller.SetClean("6A");
 
